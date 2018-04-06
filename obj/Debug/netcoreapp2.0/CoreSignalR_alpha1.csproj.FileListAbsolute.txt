@@ -1,0 +1,10 @@
+/Users/josebeltran/Projects/CoreSignalR_alpha1/bin/Debug/netcoreapp2.0/CoreSignalR_alpha1.deps.json
+/Users/josebeltran/Projects/CoreSignalR_alpha1/bin/Debug/netcoreapp2.0/CoreSignalR_alpha1.runtimeconfig.json
+/Users/josebeltran/Projects/CoreSignalR_alpha1/bin/Debug/netcoreapp2.0/CoreSignalR_alpha1.runtimeconfig.dev.json
+/Users/josebeltran/Projects/CoreSignalR_alpha1/bin/Debug/netcoreapp2.0/CoreSignalR_alpha1.dll
+/Users/josebeltran/Projects/CoreSignalR_alpha1/bin/Debug/netcoreapp2.0/CoreSignalR_alpha1.pdb
+/Users/josebeltran/Projects/CoreSignalR_alpha1/obj/Debug/netcoreapp2.0/CoreSignalR_alpha1.csproj.CoreCompileInputs.cache
+/Users/josebeltran/Projects/CoreSignalR_alpha1/obj/Debug/netcoreapp2.0/CoreSignalR_alpha1.AssemblyInfoInputs.cache
+/Users/josebeltran/Projects/CoreSignalR_alpha1/obj/Debug/netcoreapp2.0/CoreSignalR_alpha1.AssemblyInfo.cs
+/Users/josebeltran/Projects/CoreSignalR_alpha1/obj/Debug/netcoreapp2.0/CoreSignalR_alpha1.dll
+/Users/josebeltran/Projects/CoreSignalR_alpha1/obj/Debug/netcoreapp2.0/CoreSignalR_alpha1.pdb

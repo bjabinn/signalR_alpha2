@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/signalR-client/signalr-client-1.0.0-alpha2-final.min.js"></script>
+<script src="~/js/site.js"></script>
+
+<div id="log"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        EverisGameConnection();
+    });
+</script>
+
+
