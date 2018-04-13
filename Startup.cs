@@ -18,7 +18,7 @@ namespace CoreSignalR_alpha1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddSignalR();
+            //services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,10 +36,10 @@ namespace CoreSignalR_alpha1
             app.UseStaticFiles();
 
             //this must be placed before UseMvc
-            app.UseSignalR(routes =>
-            {
-                routes.MapHub<MyHub>("hub");
-            });
+            //app.UseSignalR(routes =>
+            //{
+            //    routes.MapHub<MyHub>("hub");
+            //});
 
             app.UseMvc(routes =>
             {

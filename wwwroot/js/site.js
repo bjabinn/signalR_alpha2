@@ -5,10 +5,6 @@ function EverisGameConnection(){
     let httpConnection = new signalR.HttpConnection('http://svq-87lsf5j:3000');
     let hubConnection = new signalR.HubConnection(httpConnection);
 
-    //hubConnection.on('receivedOrderBroadcast', (timestamp, user, message) => {
-    //    $('#log').append(user + " (" + timestamp + ") - " + message + "<br/>");
-    //});
-
     //hubConnection.on('connect', function () {
     //    var login = {
     //        name: 'Test User',
@@ -26,4 +22,10 @@ function EverisGameConnection(){
     //                        }, function() {
     //                                console.log('ERROR'); 
     //                        });
+
+    //var login = {
+    //    name: 'Test User',
+    //    password: '1234'
+    //}
+    //hubConnection.start().then(hubConnection.invoke('login', login));
 }
