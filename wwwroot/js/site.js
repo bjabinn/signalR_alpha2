@@ -1,12 +1,15 @@
-﻿//https://docs.microsoft.com/en-us/aspnet/signalr/overview/guide-to-the-api/hubs-api-guide-server
-
-let httpConnection = new signalR.HttpConnection('http://svq-87lsf5j:3000');
-let hubConnection = new signalR.HubConnection(httpConnection);
-//let hubConnection = new signalR.HubConnection(httpConnection, { transport: signalR.TransportType.WebSockets });
+﻿let hubConnection = new signalR.HubConnection('http://svq-87lsf5j:3000', { transport: signalR.TransportType.WebSockets });
 
 function makeGameConnection() {
     insertIntoLog("Stablishish connection with server...");
-    hubConnection.start();
+    var result = hubConnection.start()
+        .then(() => {
+            insertIntoLog("Connection sucessfully done");
+        })
+        .catch(error => {
+            insertIntoLog(error.message);
+        });
+    
 }
 
 function signIn(userName, password) {
