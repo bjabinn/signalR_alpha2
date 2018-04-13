@@ -2,19 +2,28 @@
 
 
 function EverisGameConnection(){
-    //var transport = signalR.TransportType.WebSockets;
-    //let connection = new signalR.HubConnection('http://svqxxxxx:3000', { transport: transport });
-    let connection = new signalR.HubConnection('/hub');
+    let httpConnection = new signalR.HttpConnection('http://svq-87lsf5j:3000');
+    let hubConnection = new signalR.HubConnection(httpConnection);
 
-    connection.on('receivedOrderBroadcast', (timestamp, user, message) => {
-        $('#log').append(user + " (" + timestamp + ") - " + message + "<br/>");
-    });
+    //hubConnection.on('receivedOrderBroadcast', (timestamp, user, message) => {
+    //    $('#log').append(user + " (" + timestamp + ") - " + message + "<br/>");
+    //});
 
-    connection.start().then(function() 
-                            {
-                                connection.invoke('BroadcastMessage', 'Success'); 
-                                event.preventDefault();
-                            }, function() {
-                                  console.log('ERROR'); 
-                            });
+    //hubConnection.on('connect', function () {
+    //    var login = {
+    //        name: 'Test User',
+    //        password: '1234'
+    //    }
+    //    connection.invoke('login', login);
+    //});    
+
+    hubConnection.start();
+    //hubConnection.start().then(function() 
+    //                        {
+    //                            //connection.invoke('BroadcastMessage', 'Success'); 
+    //                            //event.preventDefault();
+    //                            console.log("Arrancado");
+    //                        }, function() {
+    //                                console.log('ERROR'); 
+    //                        });
 }
