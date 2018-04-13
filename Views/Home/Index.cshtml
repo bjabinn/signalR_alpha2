@@ -6,12 +6,21 @@
 <script src="~/lib/signalR-client/signalr-client-1.0.0-alpha2-final.min.js"></script>
 <script src="~/js/site.js"></script>
 
-<div id="log"></div>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        EverisGameConnection();
-    });
-</script>
+<div>
+    <input type="button" class="btn" id="btnConectarseAlServer" value="Connect to server" onclick="makeGameConnection();"/>
+
+    <input type="text" id="userName" value="Test User"/>
+    <input type="password" id="userPassword" value="1234"/>
+    <input type="button" class="btn" id="btnLoguearse" value="Sign In" onclick="signIn($('#userName').val(), $('#userPassword').val());"/>
+
+    <input type="text" id="roomName" />
+    <input type="password" id="roomPassword" />
+    <input type="button" class="btn" id="btnEntrarEnSala" value="Go into the room" onclick="goIntoRoom($('#roomName').val(), $('#roomPassword').val());"/>
+
+    <input type="button" class="btn" id="aJugar" value="Run using our AI" onclick="play();"/>
+
+</div>
 
 
+<div style="border:1px solid lightgrey;border-radius:5px;"id="log"></div>

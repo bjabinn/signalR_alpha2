@@ -12980,6 +12980,9 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "C:\\Users\\jbeltrma\\Documents\\Visual Studio 2017\\Projects\\SignalR_Core_Alpha2Github\\CoreSignalR_alpha1.csproj",
       "projectName": "CoreSignalR_alpha1",
@@ -13015,18 +13018,18 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "2.0",
+            "autoReferenced": true
+          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "[2.0.6, )"
+            "version": "2.0.6"
           },
           "Microsoft.AspNetCore.SignalR": {
             "target": "Package",
-            "version": "[1.0.0-alpha2-final, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.0.0, )",
-            "autoReferenced": true
+            "version": "1.0.0-alpha2-final"
           }
         },
         "imports": [
