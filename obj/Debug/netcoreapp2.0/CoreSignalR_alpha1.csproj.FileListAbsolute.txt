@@ -8,14 +8,14 @@
 /Users/josebeltran/Projects/CoreSignalR_alpha1/obj/Debug/netcoreapp2.0/CoreSignalR_alpha1.AssemblyInfo.cs
 /Users/josebeltran/Projects/CoreSignalR_alpha1/obj/Debug/netcoreapp2.0/CoreSignalR_alpha1.dll
 /Users/josebeltran/Projects/CoreSignalR_alpha1/obj/Debug/netcoreapp2.0/CoreSignalR_alpha1.pdb
+C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\bin\Debug\netcoreapp2.0\CoreSignalR_alpha1.deps.json
+C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\bin\Debug\netcoreapp2.0\CoreSignalR_alpha1.runtimeconfig.json
+C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\bin\Debug\netcoreapp2.0\CoreSignalR_alpha1.runtimeconfig.dev.json
+C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\bin\Debug\netcoreapp2.0\CoreSignalR_alpha1.dll
+C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\bin\Debug\netcoreapp2.0\CoreSignalR_alpha1.pdb
+C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\obj\Debug\netcoreapp2.0\CoreSignalR_alpha1.csprojResolveAssemblyReference.cache
+C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\obj\Debug\netcoreapp2.0\CoreSignalR_alpha1.csproj.CoreCompileInputs.cache
+C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\obj\Debug\netcoreapp2.0\CoreSignalR_alpha1.AssemblyInfoInputs.cache
+C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\obj\Debug\netcoreapp2.0\CoreSignalR_alpha1.AssemblyInfo.cs
 C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\obj\Debug\netcoreapp2.0\CoreSignalR_alpha1.dll
 C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\obj\Debug\netcoreapp2.0\CoreSignalR_alpha1.pdb
-c:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\bin\Debug\netcoreapp2.0\CoreSignalR_alpha1.deps.json
-c:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\bin\Debug\netcoreapp2.0\CoreSignalR_alpha1.runtimeconfig.json
-c:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\bin\Debug\netcoreapp2.0\CoreSignalR_alpha1.runtimeconfig.dev.json
-c:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\bin\Debug\netcoreapp2.0\CoreSignalR_alpha1.dll
-c:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\bin\Debug\netcoreapp2.0\CoreSignalR_alpha1.pdb
-c:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\obj\Debug\netcoreapp2.0\CoreSignalR_alpha1.csproj.CoreCompileInputs.cache
-c:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\obj\Debug\netcoreapp2.0\CoreSignalR_alpha1.AssemblyInfoInputs.cache
-c:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\obj\Debug\netcoreapp2.0\CoreSignalR_alpha1.AssemblyInfo.cs
-C:\Users\jbeltrma\Documents\Visual Studio 2017\Projects\SignalR_Core_Alpha2Github\obj\Debug\netcoreapp2.0\CoreSignalR_alpha1.csprojResolveAssemblyReference.cache
